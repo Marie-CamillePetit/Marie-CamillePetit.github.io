@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/favicon-32x32.png">
+  <link rel="stylesheet" href="./style.css">
+
+  <title>Frontend Mentor | Product feedback app</title>
+</head>
+
+<body>
+  <div class="bodypc">
+  <div class="detail_top">
+    <a href="index.html" class="go_Back"><svg width="7" height="10" xmlns="http://www.w3.org/2000/svg"
+        class="detail_svg">
+        <path d="M6 9L2 5l4-4" stroke="#4661E6" stroke-width="2" fill="none" fill-rule="evenodd" />
+      </svg>Go Back</a>
+    <button type="button" class="btn_add-feedback">Edit Feedback</button>
+  </div>
+  <div>
+    <div class="card">
+      <div>
+        <button type="button" class="btn_fbk btn_upvote"><svg width="10" height="7" xmlns="http://www.w3.org/2000/svg"><path d="M1 6l4-4 4 4" stroke="#4661E6" stroke-width="2" fill="none" fill-rule="evenodd"/></svg>   112</button>
+      </div>
+      <div>
+        <p class="titre_fbk">Add a dark theme option</p>
+        <p class="txt_fbk">Easier to search for solutions based on a specific stack.</p>
+        <button type="button" class="btn_fbk">Enhancement</button>
+      </div>
+      <div class="btn_upvote">
+        <a href="feedback-detail.html" class="btn_comment"><svg width="18" height="16" xmlns="http://www.w3.org/2000/svg" class="svg"><path d="M2.62 16H1.346l.902-.91c.486-.491.79-1.13.872-1.823C1.036 11.887 0 9.89 0 7.794 0 3.928 3.52 0 9.03 0 14.87 0 18 3.615 18 7.455c0 3.866-3.164 7.478-8.97 7.478-1.017 0-2.078-.137-3.025-.388A4.705 4.705 0 012.62 16z" fill="#CDD2EE" fill-rule="nonzero"/></svg>2</a>
+      </div>
+    </div>
+  </div>
+  <div class="card_comment">
+    <div>
+      <p class="titre_fbk" style="font-weight: bolder;">4 Comments</p>
+      <div class="comment_card">
+        <div class="person_profil">
+          <img src="./assets/user-images/image-elijah.jpg" class="avatar_img">
+          <div class="name_reply">
+            <p class="name_person">Elijah Moss</p>
+            <p class="txt_gris">@hexagon.bestagon</p>
+          </div>
+        </div>
+        <a href="#" class="reply_comment titre_fbk">Reply</a>
+      </div>
+
+      <p class="text_comment txt_gris">Also, please allow styles to be applied based on system preferences. I would love
+        to be able to browse Frontend Mentor in the evening after my device’s dark mode turns on without the bright
+        background it currently has.</p>
+      <div class="display_none send_comment">
+        <textarea class="textarea">Type your comment here...</textarea>
+        <a class="btn_add-feedback1 post_comment">Post Comment</a>
+      </div>
+      <hr class="hr">
+      <div class="comment_card">
+        <div class="person_profil">
+          <img src="./assets/user-images/image-james.jpg" class="avatar_img">
+          <div class="name_reply">
+            <p class="name_person">James Skinner</p>
+            <p class="txt_gris">@hummingbird1</p>
+          </div>
+        </div>
+        <a href="#" class="reply_comment titre_fbk">Reply</a>
+      </div>
+      <div class="vl">
+        <p class="text_comment txt_gris">Second this! I do a lot of late night coding and reading. Adding a dark theme
+          can be great for preventing eye strain and the headaches that result. It’s also quite a trend with modern apps
+          and apparently saves battery life.</p>
+        <div class="comment_card">
+          <div class="person_profil">
+            <img src="./assets/user-images/image-anne.jpg" class="avatar_img">
+            <div class="name_reply">
+              <p class="name_person">Anne Valentine</p>
+              <p class="txt_gris">@annev1990</p>
+            </div>
+          </div>
+          <a href="#" class="reply_comment titre_fbk">Reply</a>
+        </div>
+        <p class="text_comment txt_gris"><a class="tag">@hummingbird1</a> While waiting for dark mode, there are browser
+          extensions that will also do the job. Search for 'dark theme' followed by your browser. There might be a need
+          to turn off the extension for sites with naturally black backgrounds though.</p>
+        <div class="comment_card">
+          <div class="person_profil">
+            <img src="./assets/user-images/image-ryan.jpg" class="avatar_img">
+            <div class="name_reply">
+              <p class="name_person">Ryan Welles</p>
+              <p class="txt_gris">@voyager.344</p>
+            </div>
+          </div>
+          <a href="#" class="reply_comment titre_fbk">Reply</a>
+        </div>
+        <p class="text_comment txt_gris"><a class="tag">@annev1990</a>Good point! Using any kind of style extension is
+          great and can be highly customizable, like the ability to change contrast and brightness. I'd prefer not to
+          use one of such extensions, however, for security and privacy reasons.</p>
+      
+      <div class="display_none send_comment">
+        <textarea class="textarea">Type your comment here...</textarea>
+        <a class="btn_add-feedback2 post_comment">Post Comment</a>
+      </div>
+    </div>
+  </div>
+  </div>
+
+  <div class="card card_add_comment">
+    <p class="titre_fbk">Add comment</p>
+    <textarea class="textarea">Type your comment here...</textarea>
+    <div class="send_comment">
+      <p class="lettre_left">250 Characters left</p>
+      <a class="btn_add-feedback post_comment">Post Comment</a>
+    </div>
+  </div>
+</div>
+</body>
+<html
